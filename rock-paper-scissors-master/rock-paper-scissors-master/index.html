@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="../styles.css" />
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="scoreboard">
+        <div class="logo">
+          <img src=".//images/logo.svg" alt="" />
+        </div>
+        <div class="score">
+          <p id="scoreText">SCORE</p>
+          <p id="scorePoint">12</p>
+        </div>
+      </div>
+
+      <div class="gameChoices">
+        <img
+          id="triangleIcon"
+          src="../rock-paper-scissors-master/images/bg-triangle.svg"
+          alt="Triangle Icon"
+        />
+        <div class="choices">
+          <div class="paper">
+            <div class="icon-bg">
+              <img
+                id="paper-icon"
+                src="../rock-paper-scissors-master/images/icon-paper.svg"
+                alt="Paper Icon"
+              />
+            </div>
+          </div>
+          <div class="scissors">
+            <img
+              src="../rock-paper-scissors-master/images/icon-scissors.svg"
+              alt="Scissors Icon"
+            />
+          </div>
+          <div class="rock">
+            <img
+              src="../rock-paper-scissors-master/images/icon-rock.svg"
+              alt="Rock Icon"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="gameResult">
+        <div class="user">
+          <p>YOU PICKED</p>
+          <div class="userChoice"></div>
+        </div>
+
+        <div class="computer">
+          <p>THE HOUSE PICKED</p>
+          <div class="computerChoice"></div>
+        </div>
+
+        <div class="displayWinner">
+          <p class="message"></p>
+          <button class="playAgainBtn">PLAY AGAIN</button>
+        </div>
+
+        <button class="rulesBtn">RULES</button>
+      </div>
+    </div>
+
+    Score Rules You Picked The House Picked You Win You Lose Play Again
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
